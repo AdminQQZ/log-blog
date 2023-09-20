@@ -33,14 +33,14 @@
 
       <template #end>
         <b-navbar-item tag="div">
-          <a
-              class="button is-light"
-              href="https://github.com/Frost-ZX"
-              target="_blank"
-          >
-            <b-icon icon="github"></b-icon>
-            <span>GitHub</span>
-          </a>
+<!--          <a-->
+<!--              class="button is-light"-->
+<!--              href="https://github.com/Frost-ZX"-->
+<!--              target="_blank"-->
+<!--          >-->
+<!--            <b-icon icon="github"></b-icon>-->
+<!--            <span>GitHub</span>-->
+<!--          </a>-->
         </b-navbar-item>
       </template>
 

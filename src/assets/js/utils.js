@@ -11,7 +11,7 @@ import { ToastProgrammatic as Toast } from 'buefy';
  */
 export const setTitle = (title) => {
     if (title) {
-        document.title = `${title} - Frost-ZX`;
+        document.title = `${title} - 借钱导致家庭破裂`;
     } else {
         document.title = '良人日记主页';
     }

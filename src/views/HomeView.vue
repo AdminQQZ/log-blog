@@ -8,8 +8,8 @@
       <div class="home-desc">
         <p>一个无偿帮助朋友，最后要债困难的人</p>
         <p>
-          <span>背景图片来源：</span>
-          <a href="https://unsplash.com/photos/myq0GB_AAVU" target="_blank">Unsplash / Niels Cornet</a>
+          <span>正常人一旦做了亏心事，内心是无法得到安宁的。如果人到了无耻的程度，就另当别论了，例如借钱不还钱的人。</span>
+<!--          <a href="https://unsplash.com/photos/myq0GB_AAVU" target="_blank">Unsplash / Niels Cornet</a>-->
         </p>
       </div>
       <b-button

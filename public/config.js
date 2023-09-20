@@ -3,16 +3,24 @@ var appConfig = {
     contentList: [
         {
             name: 'index',
-            label: '正文',
+            label: '春光满面',
             items: [
                 {
+                    name: 'start',
+                    title: '0_他向我寻求帮助',
+                    createdAt: '2023-09-20',
+                    updatedAt: '2023-09-20'
+                }
+                ,
+                {
                     name: 'index',
-                    title: '薛坤走丢了,心急如焚',
+                    title: '1_心急如焚,他走丢了',
                     createdAt: '2023-09-20',
                     updatedAt: '2023-09-20'
                 },
             ]
         },
+
         // {
         //     name: 'default',
         //     label: '默认',
