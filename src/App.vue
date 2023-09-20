@@ -6,34 +6,37 @@
 
       <template #brand>
         <b-navbar-item tag="router-link" :to="{ name: 'Home' }">
-          <img src="./assets/image/avatar.png" alt="Avatar" />
+          <img src="./assets/image/avatar.jpg" alt="Avatar"/>
         </b-navbar-item>
       </template>
 
       <template #start>
         <b-navbar-item
-          tag="router-link"
-          :to="{ name: 'Home' }"
-          :active="routeName === 'Home'"
-        >主页</b-navbar-item>
+            tag="router-link"
+            :to="{ name: 'Home' }"
+            :active="routeName === 'Home'"
+        >主页
+        </b-navbar-item>
         <b-navbar-item
-          tag="router-link"
-          :to="{ name: 'ContentIndex' }"
-          :active="['Content','ContentIndex'].includes(routeName)"
-        >文章</b-navbar-item>
+            tag="router-link"
+            :to="{ name: 'ContentIndex' }"
+            :active="['Content','ContentIndex'].includes(routeName)"
+        >文章
+        </b-navbar-item>
         <b-navbar-item
-          tag="router-link"
-          :to="{ name: 'About' }"
-          :active="routeName === 'About'"
-        >关于</b-navbar-item>
+            tag="router-link"
+            :to="{ name: 'About' }"
+            :active="routeName === 'About'"
+        >关于
+        </b-navbar-item>
       </template>
 
       <template #end>
         <b-navbar-item tag="div">
           <a
-            class="button is-light"
-            href="https://github.com/Frost-ZX"
-            target="_blank"
+              class="button is-light"
+              href="https://github.com/Frost-ZX"
+              target="_blank"
           >
             <b-icon icon="github"></b-icon>
             <span>GitHub</span>
@@ -44,7 +47,7 @@
     </b-navbar>
 
     <!-- 页面内容 -->
-    <router-view class="app-content" />
+    <router-view class="app-content"/>
 
   </div>
 </template>
