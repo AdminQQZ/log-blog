@@ -4,9 +4,9 @@
     <div class="bg-cover"></div>
 
     <div class="center-content">
-      <div class="home-title">Frost-ZX 的主页</div>
+      <div class="home-title">良人日记主页</div>
       <div class="home-desc">
-        <p>一个使用 Vue + Buefy + markdown-it 开发实现的静态博客。</p>
+        <p>一个无偿帮助朋友，最后要债困难的人</p>
         <p>
           <span>背景图片来源：</span>
           <a href="https://unsplash.com/photos/myq0GB_AAVU" target="_blank">Unsplash / Niels Cornet</a>
@@ -29,13 +29,13 @@ import { setTitle } from '@/assets/js/utils';
 export default {
   name: 'HomeView',
   methods: {
-    
+
     toDetail() {
       this.$router.push({
         name: 'ContentIndex'
       });
     },
-    
+
   },
   created() {
     setTitle();

@@ -10,7 +10,7 @@ module.exports = defineConfig({
 
     assetsDir: 'static',
     publicPath: './',
-    outputDir: 'dist',
+    outputDir: 'hqdist',
 
     productionSourceMap: false,
     transpileDependencies: false,

@@ -2,23 +2,26 @@
   <div class="about-view">
     <div class="about-wrapper markdown-body">
 
-      <h2>关于本站</h2>
+      <h2>"还款与责任：诚信社会的生存之道"</h2>
 
       <ul>
-        <li>使用 Vue CLI 5.0 搭建，基于 Vue 2.X，集成 Vue Router 前端路由。</li>
-        <li>采用了基于 Bulma CSS 框架的 Buefy 组件库。</li>
-        <li>使用了 axios，用于读取 Markdown 文件。</li>
-        <li>使用了 markdown-it，用于将 Markdown 转换为 HTML。</li>
+        <li></li>
+        <li>不还债的行为不仅对个体和银行造成损失，还可能对整个社会产生深远的危害。</li>
+        <li>
+          它削弱了社会的诚信体系，加重了金融不稳定性，威胁了经济和社会的健康发展。
+        </li>
+        <li>因此，诚实守信、履行债务承诺是维护社会秩序和稳定的重要一环。</li>
       </ul>
 
     </div>
+
   </div>
 </template>
 
 <script>
 import 'github-markdown-css/github-markdown-light.css';
 
-import { setTitle } from '@/assets/js/utils';
+import {setTitle} from '@/assets/js/utils';
 
 export default {
   name: 'AboutView',

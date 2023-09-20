@@ -5,7 +5,7 @@ import { ToastProgrammatic as Toast } from 'buefy';
  * @type {'is-white'|'is-black'|'is-light'|'is-dark'|'is-primary'|'is-info'|'is-success'|'is-warning'|'is-danger'}
  */
 
-/** 
+/**
  * @description 设置标题
  * @param {string} [title] 标题内容
  */
@@ -13,7 +13,7 @@ export const setTitle = (title) => {
     if (title) {
         document.title = `${title} - Frost-ZX`;
     } else {
-        document.title = 'Frost-ZX 的主页';
+        document.title = '良人日记主页';
     }
 };
 

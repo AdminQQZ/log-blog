@@ -6,7 +6,7 @@
 
       <template #brand>
         <b-navbar-item tag="router-link" :to="{ name: 'Home' }">
-          <img src="./assets/image/avatar.jpg" alt="Avatar"/>
+          <img src="./assets/image/avatar.png" alt="Avatar"/>
         </b-navbar-item>
       </template>
 
@@ -21,7 +21,7 @@
             tag="router-link"
             :to="{ name: 'ContentIndex' }"
             :active="['Content','ContentIndex'].includes(routeName)"
-        >文章
+        >正文
         </b-navbar-item>
         <b-navbar-item
             tag="router-link"
