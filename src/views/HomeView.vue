@@ -4,7 +4,7 @@
     <div class="bg-cover"></div>
 
     <div class="center-content">
-      <div class="home-title">良人日记主页</div>
+      <div class="home-title">薛坤还我血汗钱！</div>
       <div class="home-desc">
         <p>一个无偿帮助朋友，最后要债困难的人</p>
         <p>

@@ -11,9 +11,9 @@ import { ToastProgrammatic as Toast } from 'buefy';
  */
 export const setTitle = (title) => {
     if (title) {
-        document.title = `${title} - 借钱导致家庭破裂`;
+        document.title = `${title} - 薛坤借钱不还，父母帮凶`;
     } else {
-        document.title = '良人日记主页';
+        document.title = '良民日记主页';
     }
 };
 

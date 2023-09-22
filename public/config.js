@@ -3,18 +3,18 @@ var appConfig = {
     contentList: [
         {
             name: 'index',
-            label: '春光满面',
+            label: '欠债还钱,天经地义',
             items: [
                 {
                     name: 'start',
-                    title: '0_他向我寻求帮助',
+                    title: '0_云南、重庆的同学们要小心',
                     createdAt: '2023-09-20',
                     updatedAt: '2023-09-20'
                 }
                 ,
                 {
                     name: 'index',
-                    title: '1_心急如焚,他走丢了',
+                    title: '1_薛坤跑路了没有还我钱，留下了他的信息',
                     createdAt: '2023-09-20',
                     updatedAt: '2023-09-20'
                 },
